@@ -15,7 +15,5 @@ function deleteItem(randomId){
   for (let i = 0 ; i < listItems.length ; i++){
     if (listItems[i].classList.contains(randomId)){
     listItems[i].remove(listItems[i])
-  }
-  }
-  
+  }}
 }
